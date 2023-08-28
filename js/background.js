@@ -9,6 +9,6 @@ const chosenImage = images[Math.floor( Math.random() * images.length )];
 //document.body.appendChild(bgImage);
 const bodyStyle = document.body.style;
 
-bodyStyle.backgroundImage = `url(/Users/ujmoon/Desktop/vanila-js-2023/img/${chosenImage})`
+bodyStyle.backgroundImage = `url(img/${chosenImage})`
 
-//console.log(document.body.style.backgroundImage);
+//console.log(document.body.style.backgroundImage); /Users/ujmoon/Desktop/vanila-js-2023
