@@ -11,4 +11,4 @@ const bodyStyle = document.body.style;
 
 bodyStyle.backgroundImage = `url(img/${chosenImage})`
 
-//console.log(document.body.style.backgroundImage); /Users/ujmoon/Desktop/vanila-js-2023
+//console.log(document.body.style.backgroundImage);
