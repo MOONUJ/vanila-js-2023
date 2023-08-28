@@ -1,5 +1,22 @@
-@import "CSS/reset.css";
+@import "reset.css";
+
+* {
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
 
 .hidden {
     display: none;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-position: center center;
+    background-size: cover;
 }
