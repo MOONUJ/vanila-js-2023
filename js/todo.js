@@ -23,9 +23,13 @@ function paintToDo(newToDo) {
     li.id = newToDo.id;
     const span = document.createElement("span");
     const button = document.createElement("button");
+    const i =  document.createElement("i");
+    i.classList.add("fa-solid");
+    i.classList.add("fa-pen-to-square");
     span.innerText = newToDo.text;
-    button.innerText = "🗑️"
+    button.innerText = "❌"
     button.addEventListener("click", deleteToDo);
+    li.appendChild(i);
     li.appendChild(span);
     li.appendChild(button);
     toDoList.appendChild(li);
